@@ -15,6 +15,8 @@ body {
 	font-weight: bold;
 	float: center;
 	z-index: 5;
+    border-bottom: solid 4px #1a1a1a;
+    font-size: 20px;
 }
 
 .menulist {
@@ -81,4 +83,58 @@ a:visited {
 
 a:active {
 	color: red;
+}
+
+.header1 {
+    margin: 50px 0 50px 38%;
+	color: white;
+	font-family: "Trebuchet MS";
+    font-size: 60px;
+}
+
+.text {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px 50px 60px 60px;
+    text-indent: 0;
+	font-family: "Trebuchet MS";
+}
+
+.breaker {
+    width: 101.35%;
+    margin: 0 0 0 -10px;
+    height: 100px;
+    background-color: #232428;
+    color:aliceblue;
+    text-align: center;
+	font-family: "Trebuchet MS";
+    font-size: 60px;
+    padding-top: 21px;
+}
+
+.downloadtext {
+    position: absolute;
+	font-family: "Trebuchet MS";
+    font-size: 60px;
+    text-indent: 100px;
+    padding-top: 210px;
+}
+
+.downloadicon {
+    position: absolute;
+    color: black;
+    font-size: 180px;
+    padding: 140px 0 0 925px;
+}
+
+.loadingprank {
+    cursor: progress;
+}
+
+.downloadblock {
+    width: 101.35%;
+    margin: 0 0 0 -10px;
+    height: 500px;
+    background-image: radial-gradient(circle closest-corner at 75% 50%, #a5a5a5, #b21515);
 }
