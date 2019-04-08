@@ -29,6 +29,14 @@ ul.menulist li {
 	padding-right: 50px;
 }
 
+ul.menulist li:hover {
+	color: #ffba8c;
+}
+
+a {
+	text-decoration: none;
+}
+
 .menuicon {
 	vertical-align: middle;
 	width: 48px;
@@ -45,7 +53,7 @@ ul.menulist li {
 	margin: 70px 0 0 -10px;
 	width: 101.35%;
 	overflow: hidden;
-	opacity: 0.6
+	opacity: 0.5
 }
 
 .title {
@@ -61,4 +69,16 @@ ul.menulist li {
 	width: 40%;
 	z-index: 3;
 	padding: 10px 0 10px 0;
+}
+
+a:hover {
+	color: #ffba8c;
+}
+
+a:visited {
+	color: #ffba8c;
+}
+
+a:active {
+	color: red;
 }
