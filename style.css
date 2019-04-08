@@ -3,7 +3,7 @@ body {
 }
 
 .menubar {
-	background-color: #232428;
+	background-color: #252525;
 	width: 100%;
 	height: 80px;
 	position: fixed;
@@ -45,6 +45,11 @@ a {
 	height: 48px;
 }
 
+.menulinks {
+    color: white;
+    user-select: none;
+}
+
 .test {
 	writing-mode: vertical-rl;
 	text-orientation: upright;
@@ -66,19 +71,20 @@ a {
 	font-size: 50px;
 	position: absolute;
 	font-weight: bolder;
-	margin: 280px 0 0 29%;
+	margin: 21% 0 0 29%;
 	text-align: center;
 	width: 40%;
 	z-index: 3;
 	padding: 10px 0 10px 0;
+    overflow: hidden;
 }
 
 a:hover {
 	color: #ffba8c;
 }
 
-a:visited {
-	color: #ffba8c;
+li a:visited {
+    color: #ffba8c;
 }
 
 a:active {
@@ -86,7 +92,9 @@ a:active {
 }
 
 .header1 {
-    margin: 50px 0 50px 38%;
+    width: 101.35%;
+    margin: 50px 0 50px -10px;
+    text-align: center;
 	color: white;
 	font-family: "Trebuchet MS";
     font-size: 60px;
@@ -105,7 +113,7 @@ a:active {
     width: 101.35%;
     margin: 0 0 0 -10px;
     height: 100px;
-    background-color: #232428;
+    background-color: #252525;
     color:aliceblue;
     text-align: center;
 	font-family: "Trebuchet MS";
@@ -124,11 +132,16 @@ a:active {
 .downloadicon {
     position: absolute;
     color: black;
-    font-size: 180px;
-    padding: 140px 0 0 925px;
+    font-size: 120px;
+    font-family: Consolas, monaco, monospace;
+    padding: 180px 0 0 67%;
+    user-select: none;
 }
 
 .loadingprank {
+    background-color: white;
+    border: 0px solid black;
+    border-radius: 20px;
     cursor: progress;
 }
 
@@ -136,5 +149,15 @@ a:active {
     width: 101.35%;
     margin: 0 0 0 -10px;
     height: 500px;
-    background-image: radial-gradient(circle closest-corner at 75% 50%, #a5a5a5, #b21515);
+    background-image: radial-gradient(circle closest-corner at 75% 50%, #000000, #240808, #b21515);
+}
+
+.hidden {
+    color: #252525;
+    user-select: none;
+}
+
+.hidden:hover {
+    color: #252525;
+    cursor: default;
 }

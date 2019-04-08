@@ -4,6 +4,8 @@
 		<title>Text Summarizer Hackathon Project</title>
 		<link rel="stylesheet" href="style.css"></style>
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+        <!--<meta http-equiv="refresh" content="0; URL='https://txtsummarizer--percycho.repl.co/'" />
+        just a reference when I need to redirect a site-->
 	</head>
 	<body>
 		<div class="menubar">
@@ -11,10 +13,11 @@
 				<li>
 					<img src="logo.png"  class="menuicon">
 				</li>
-				<li><a href="#home">Home</a></li>
-				<li>Download</li>
-				<li>About</li>
-				<li>Feedback</li>
+				<li><a href="#home" class="menulinks">Home</a></li>
+				<li><a href="#download" class="menulinks">Download</a></li>
+				<li><a class="menulinks">About</a></li>
+				<li><a class="menulinks">Feedback</a></li>
+                <a href="/dank.html" class="hidden" title="click me">dank</a>
 			</ul>
 		</div>
 		<div id="home" style="margin-top: -10px; position: absolute;"></div>
@@ -22,9 +25,9 @@
 		<img class="homecodepic" src="wolfram-code.png">
 		<div class="header1">What is this?</div>
 		<div class="text">This is a program made using Wolfram Mathmatica that takes a big piece of text that you put into it, and summarizes it by taking the key points of the article and using them. This project was made for the HackMHS tournament, where kids who do or don't know how to code get together and try to make something from scratch. This program was our entry to the tournament.</div>
-        <div class="breaker">Download</div>
+        <div id="download" class="breaker">Download</div>
         <div class="downloadtext">Here is the file! ➡</div>
-        <div class="downloadicon"><span class="loadingprank">🗎</span></div>
+        <div class="downloadicon" ><a title="We don't have the file yet :(" class="loadingprank">.nb</a></div>
         <div class="downloadblock"></div>
 	</body>
 </html>
