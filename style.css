@@ -57,7 +57,7 @@ a {
 }
 
 .homecodepic {
-	margin: 70px 0 0 -10px;
+	margin: 56px 0 0 -10px;
 	width: 101.35%;
 	overflow: hidden;
 	opacity: 0.5
@@ -81,10 +81,6 @@ a {
 
 a:hover {
 	color: #ffba8c;
-}
-
-li a:visited {
-    color: #ffba8c;
 }
 
 a:active {
@@ -142,6 +138,7 @@ a:active {
     background-color: white;
     border: 0px solid black;
     border-radius: 20px;
+    padding: 10px 20px 0 0;
     cursor: progress;
 }
 
@@ -160,4 +157,25 @@ a:active {
 .hidden:hover {
     color: #252525;
     cursor: default;
+}
+
+.header2 {
+    display: block;
+    width: 50.675%;
+    margin: 50px 0 50px -10px;
+    text-align: center;
+	color: white;
+	font-family: "Trebuchet MS";
+    font-size: 60px;
+}
+
+.photorow {
+    display: flex;
+}
+
+.photo {
+    flex: 50%;
+    margin: 0 5%;
+    padding: 0 0px;
+    width: 30%;
 }
